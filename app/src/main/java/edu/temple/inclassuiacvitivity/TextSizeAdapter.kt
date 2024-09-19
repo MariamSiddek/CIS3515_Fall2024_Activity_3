@@ -42,7 +42,7 @@ class TextSizeAdapter(
 
         // Set the text size for the item
         val textSize = textSizes[position]
-        viewHolder.textView.text = "$textSize pt"
+        viewHolder.textView.text = "$textSize"
         viewHolder.textView.textSize = textSize.toFloat()
 
         return view
